@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>실습02</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/slick.css">
+    <link rel="stylesheet" href="./css/main.css">
+
+    <script src="./js/jquery-1.12.4.min.js"></script>
+    <script src="./js/slick.min.js"></script>
+    <script src="./js/main.js"></script>
+</head>
+
+<body>
+    <div class="wrap">
+        <header class="header">
+            <div class="inner menu_wrap">
+                <h1><a href="/">
+                        <img src="./images/logo.png" alt="실습02a">
+                    </a>
+                </h1>
+
+                <nav class="gnb">
+                    <h2 class="blind">메뉴</h2>
+                    <ul>
+                        <li><a href="">금맥청소 소개</a></li>
+                        <li><a href=""> 아파트입주청소</a></li>
+                        <li><a href=""> 이사/상가청소</a></li>
+                        <li><a href="">사무실청소</a></li>
+                        <li><a href="">청소갤러리</a></li>
+                        <li><a href="">질문과답변</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <!-- https://jonsuh.com/hamburgers/ 라이브러리도 있음. -->
+            <!--xi-bars 아이콘으로 만들기
+            <div class="mobile_btn">
+                <i class="xi-bars"> </i>
+            </div> -->
+
+            <div class="mobile_btn">
+                <button>
+                    <span class="blind">모바일 메뉴 버튼</span>
+                </button>
+            </div>
+
+
+        </header>
+        <main>
+            <section class="main_visual">
+                <h2 class="blind">금맥청소 주요 서비스</h2>
+                <div class="slide_wrap">
+                    <div class="main_slide">
+                        <div class="itm">
+                            <h3>부산 아파트입주청소</h3>
+                            <p>
+                                <strong> 상태에서의 실내 청소</strong>를 말하며
+                                보양지 제거, 공사먼지 제거, 오염 제거, 시멘트가루 제거 등
+                                구석구석 세밀하게 청소하는 서비스로 가족의 건강을 위해서 입주 전에 꼭 해야 하는 서비스입니다z
+                            </p>
+                        </div>
+                        <div class="itm">
+                            <h3>이사 상가 청소</h3>
+                            <p>
+                                <strong>
+                                    신축 아파트나 빌라</strong> 등 입주 전 상태에서의 실내 청소를 말하며
+                                보양지 제거, 공사먼지 제거, 오염 제거, 시멘트가루 제거 등
+                                구석구석 세밀하게 청소하는 서비스로 가족의 건강을 위해서 입주 전에 꼭 해야 하는 서비스입니다z
+                            </p>
+                        </div>
+                        <div class="itm">
+                            <h3>사무실 청소</h3>
+                            <p>
+                                <strong> 보양지 제거, 공사먼지 제거, 오염 제거, 시멘트가루 제거 등</strong>
+                                구석구석 세밀하게 청소하는 서비스로 가족의 건강을 위해서 입주 전에 꼭 해야 하는 서비스입니다z
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="main_slogan">
+                    <img src="./images/slogan.png" alt="꼼꼼하게 잘합니다.">
+                </div>
+            </section>
+
+            <div class="main_content sec">
+                <h2 class="blind">금맥청소 주요 서비스 상세</h2>
+                <div class="inner content">
+                    <figure>
+                        <a href="">
+                            <div class="img_box">
+                                <img src="./images/main_s011.jpg" alt="부산 아파트 입주청소">
+                            </div>
+                            <h3>부산 아파트 입주청소</h3>
+                            <p>
+                                신축 아파트나 빌라 등 입주 전 상태에서의 실내 청소를 말하며<br />
+                                보양지 제거, 공사먼지 제거, 오염 제거, 시멘트가루 제거 등<br />
+                                구석구석 세밀하게 청소하는 서비스로 가족의 건강을 위해서 입주 전에 꼭 해야 하는 서비스입니다.<br />
+                            </p>
+                        </a>
+                    </figure>
+                    <figure>
+                        <a href="">
+                            <div class="img_box">
+                                <img src="./images/main_s012.jpg" alt="부산 아파트 입주청소">
+                            </div>
+                            <h3>부산 아파트 입주청소</h3>
+                            <p>
+                                신축 아파트나 빌라 등 입주 전 상태에서의 실내 청소를 말하며<br />
+                                보양지 제거, 공사먼지 제거, 오염 제거, 시멘트가루 제거 등<br />
+                                구석구석 세밀하게 청소하는 서비스로 가족의 건강을 위해서 입주 전에 꼭 해야 하는 서비스입니다.<br />
+                            </p>
+                        </a>
+                    </figure>
+                    <figure>
+                        <a href="">
+                            <div class="img_box">
+                                <img src="./images/main_s013.jpg" alt="부산 아파트 입주청소">
+                            </div>
+                            <h3>부산 아파트 입주청소</h3>
+                            <p>
+                                신축 아파트나 빌라 등 입주 전 상태에서의 실내 청소를 말하며<br />
+                                보양지 제거, 공사먼지 제거, 오염 제거, 시멘트가루 제거 등<br />
+                                구석구석 세밀하게 청소하는 서비스로 가족의 건강을 위해서 입주 전에 꼭 해야 하는 서비스입니다.<br />
+                            </p>
+                        </a>
+                    </figure>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+
+            <h2 class="blind">고객지원</h2>
+            <div class="inner">
+                <address>부산광역시 북구 만덕2로 14 상가동 제314호</address>
+                <ul class="footer_customer">
+                    <li>대표자 : 전정선</li>
+                    <li>사업자등록번호 : 606-11-45081</li>
+                    <li> <a href="tel:051-331-3354" class="tel">Tel : 051-331-3354</a></li>
+                    <li>e-mail : jjs3354@naver.com</li>
+                </ul>
+                <div class="copy">
+                    &copy; 부산아파트입주청소 금맥청소 All Rights Reserved.
+                </div>
+            </div>
+
+        </footer>
+    </div>
+</body>
+
+</html>
